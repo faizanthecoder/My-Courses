@@ -1,21 +1,136 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
-    background-color: rgba(236, 195, 118, 0.76);
+body {
+    background-color: #C7A183;
 }
 
-nav{
-    height:50px;
+nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #996A51;
+    box-shadow: 0px 5px 12px 8px #996A51;
 
 }
-ul{
+
+ul {
     display: flex;
     gap: 10px;
+    align-items: center;
 }
-ul li{
+
+ul li {
+    list-style: none;
+    padding: 0px 20px 0px 20px;
+    font-size: 1.5rem;
+
+}
+
+ul a {
     text-decoration: none;
+    /* color: #3F0113; */
+    color: white;
+
+}
+
+#logo {
+    padding: 20px;
+    font-size: 2rem;
+    font-weight: 400;
+    /* color: #3F0113; */
+    color: white;
+
+}
+
+#auth {
+    padding: 10px 15px 10px 15px;
+    align-items: center;
+    margin: 20px;
+    font-size: 1.3rem;
+    border: 1px solid rgb(209, 141, 63);
+    border-radius: 10px;
+    /* color: #3F0113; */
+    color: #3F0113;
+
+    background-color: bisque;
+}
+
+#sec-1 {
+    display: flex;
+    position: relative;
+    /* justify-content: space-between; */
+    margin: 100px;
+}
+
+#sec-1-l {
+    font-size: 4rem;
+    line-height: 90px;
+    position: absolute;
+    /* Positions the text relative to the container */
+    top: 50%;
+    /* Starts the text at the vertical midpoint */
+    left: 50%;
+    /* Starts the text at the horizontal midpoint */
+    transform: translate(-50%, -50%);
+    color: white;
+    /* Styles the text for readability */
+    /* font-size: 20px; */
+    font-weight: bold;
+    /* text-align: center; */
+    /* Add a background color for better readability on various image types */
+    background-color: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    /* opacity: 1; */
+    z-index: 999;
+
+}
+
+#sec-1-img {
+    width: 100%;
+    opacity: 0.9;
+
+    /* height: 400px; */
+}
+
+#sec-2 {
+    display: flex;
+    flex-wrap: wrap;
+    /* position: relative; */
+    justify-content: space-between;
+    margin: 100px;
+}
+
+.card {
+    border-radius: 16px;
+    background-color: white;
+    height: 350px;
+    width: 300px;
+    position: relative;
+    margin: 20px;
+    padding: 20px 20px 0px 20px;
+
+}
+
+.card-img {
+    width: 100%;
+
+    /* margin: 20px; */
+    border: 1px solid red;
+    height: 250px;
+}
+
+h4{
+    padding-top: 8px;
+    font-size: 20px;
+    
+
+}
+.card p{
+    font-size: 20px;
+    padding-top: 5px;
 }
