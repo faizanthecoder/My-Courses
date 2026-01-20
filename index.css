@@ -6,6 +6,8 @@
 
 body {
     background-color: #C7A183;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
 }
 
 nav {
@@ -13,8 +15,9 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #996A51;
-    box-shadow: 0px 5px 12px 8px #996A51;
+    /* background-color: #996A51; */
+    background-color: #3F0113;
+    box-shadow:0px 6px 20px 0px #610b23;
 
 }
 
@@ -27,6 +30,7 @@ ul {
 ul li {
     list-style: none;
     padding: 0px 20px 0px 20px;
+    /* gap: 20px; */
     font-size: 1.5rem;
 
 }
@@ -133,4 +137,83 @@ h4{
 .card p{
     font-size: 20px;
     padding-top: 5px;
+}
+
+footer{
+        /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+background-color: #3F0113;
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    gap: 20px;
+    justify-content: space-around;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-course {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.footer-course ul{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.footer-course ul li{
+    font-size: 1.3rem;
+padding: 0;
+}
+
+.quick-links {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.quick-links ul{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+
+}
+.quick-links ul li{
+padding: 0;
+    font-size: 1.3rem;
+/* font-weight: 600; */
+
+
+}
+
+.social-links{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+/* font-weight: 400; */
+
+}
+.social-links ul{
+    align-items: flex-start;
+
+    display: flex;
+    flex-direction: column;
+}
+.social-links ul li{
+    font-size: 1.3rem;
+    padding: 0;
+}
+
+h5{
+    font-size: 1.2rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+.footer-grey{
+    display: flex;
+    justify-content: space-between;
 }
