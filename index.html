@@ -22,16 +22,29 @@
                 <a href="contact.html">
                     <li>Contact</li>
                 </a>
-                <a href="courses.html">
-                    <li id="courses" style="margin-top: 140px;">Courses</li>
+                <div class="dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+                    <a href=""><li>Course ↆ</li></a>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="#">Html</a>
+                        <a href="#">Css</a>
+                        <a href="#">Java Script</a>
+                        <a href="#">Python</a>
 
-                    <ul class="drop-down" style="display: flex; flex-direction:column ;position:relative;top:100%;left:0%;background-color:burlywood; visibility:hidden;">
+                    </div>
+                </div>
+<!-- 
+                <a href="courses.html">
+                    <li id="courses">Courses ↆ</li>
+                </a>
+                <div class="dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+                    <ul id="myDropdown">
                         <li>Html</li>
                         <li>Css</li>
                         <li>Java script</li>
                         <li>Python</li>
                     </ul>
-                </a>
+                </div> -->
+
                 <a href="blog.html">
                     <li>Blog</li>
                 </a>
@@ -48,49 +61,66 @@
         </section>
         <section id="sec-2">
             <div class="card">
-                <div class="card-img"><img src="" alt=""></div>
+                <div class="card-img"><img
+                        src="https://media.licdn.com/dms/image/v2/D5612AQGd2ww9CT875A/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1719465177022?e=2147483647&v=beta&t=3Q9Z0ZIO9LGztoQSe0N4D46MSvz8iUAjnJ2LS8FCnCw"
+                        alt="cant show"></div>
                 <h4>Html Course:</h4>
                 <p>Master the basics of Html.</p>
             </div>
             <div class="card">
-                <div class="card-img"><img src="" alt=""></div>
-                <h4>Html Course:</h4>
-                <p>Master the basics of Html.</p>
+                <div class="card-img"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnqgmuvposLni9_Gb_CmLsUkwq8X3vACdHuA&s"
+                        alt=""></div>
+                <h4>Css Course:</h4>
+                <p>Master the basics of Css.</p>
             </div>
             <div class="card">
-                <div class="card-img"><img src="" alt=""></div>
-                <h4>Html Course:</h4>
-                <p>Master the basics of Html.</p>
+                <div class="card-img"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkiiCYNqUp85y58_VO7czwj9EvVlM8CFECRg&s"
+                        alt=""></div>
+                <h4>Java Script Course:</h4>
+                <p>Master the basics of Javascript.</p>
             </div>
             <div class="card">
-                <div class="card-img"><img src="" alt=""></div>
-                <h4>Html Course:</h4>
-                <p>Master the basics of Html.</p>
+                <div class="card-img"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx1sscDzi3MtLl3EgrLJUH2ZOJSv8BbzBjBA&s"
+                        alt=""></div>
+                <h4>Python Course:</h4>
+                <p>Master the basics of Python.</p>
             </div>
             <div class="card">
-                <div class="card-img"><img src="" alt=""></div>
-                <h4>Html Course:</h4>
-                <p>Master the basics of Html.</p>
+                <div class="card-img"><img src="https://static.skillshare.com/uploads/discussion/tmp/cb837f34.png"
+                        alt=""></div>
+                <h4>C Course:</h4>
+                <p>Master the basics of C.</p>
             </div>
             <div class="card">
-                <div class="card-img"><img src="" alt=""></div>
-                <h4>Html Course:</h4>
-                <p>Master the basics of Html.</p>
+                <div class="card-img"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6rbRNqV5k5-mT3HqHmNT6rnfT1UEGstEPWg&s"
+                        alt=""></div>
+                <h4>C++ Course:</h4>
+                <p>Master the basics of C++.</p>
             </div>
             <div class="card">
-                <div class="card-img"><img src="" alt=""></div>
-                <h4>Html Course:</h4>
-                <p>Master the basics of Html.</p>
+                <div class="card-img"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6A9t6i1DrQwbuOqIrcWJPtcPx42mxb26zJg&s"
+                        alt=""></div>
+                <h4>Java Course:</h4>
+                <p>Master the basics of Java.</p>
             </div>
             <div class="card">
-                <div class="card-img"><img src="" alt=""></div>
-                <h4>Html Course:</h4>
-                <p>Master the basics of Html.</p>
+                <div class="card-img"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqcBaoqU0fGkG_fi8N10Oox5WpZi9xt8S7qg&s"
+                        alt=""></div>
+                <h4>Game development Course:</h4>
+                <p style="padding-bottom: 10px;">Master the basics of Game Development.</p>
             </div>
             <div class="card">
-                <div class="card-img"><img src="" alt=""></div>
-                <h4>Html Course:</h4>
-                <p>Master the basics of Html.</p>
+                <div class="card-img"><img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_J8D2HKLZGSp79fGH4skzoxRXlRvLe_nvZg&s"
+                        alt=""></div>
+                <h4>Php Course:</h4>
+                <p>Master the basics of Php.</p>
             </div>
         </section>
     </main>
@@ -100,41 +130,69 @@
             <div class="footer-logo">
                 <h4 style="color: white; font-size:2rem;">My courses</h4>
                 <br>
-                <p style="color: white;">Unlock your potenrial with us ,the paltform to improve your <br> soft skills.</p><br>
+                <p style="color: white;">Unlock your potenrial with us ,the paltform to improve your <br> soft skills.
+                </p><br>
                 <p style="color: white;">Updates may take some time to show</p><br><br>
 
             </div>
             <div class="footer-course">
                 <h5>Courses</h5> <br>
                 <ul>
-                   <a href=""><li >Html</li></a>
-                    <a href=""><li>Css</li></a>
-                   <a href=""> <li>Java Script</li></a>
-                   <a href=""> <li>Python</li></a>
+                    <a href="">
+                        <li>Html</li>
+                    </a>
+                    <a href="">
+                        <li>Css</li>
+                    </a>
+                    <a href="">
+                        <li>Java Script</li>
+                    </a>
+                    <a href="">
+                        <li>Python</li>
+                    </a>
                 </ul>
             </div>
             <div class="quick-links">
                 <h5>Quick links</h5> <br>
                 <ul>
-                    <a href=""><li>Courses</li></a>
-                   <a href=""><li>About Us</li></a>
-                    <a href=""><li>Conatct US</li></a>
-                    <a href=""><li>Give Suggestions</li></a>
+                    <a href="">
+                        <li>Courses</li>
+                    </a>
+                    <a href="">
+                        <li>About Us</li>
+                    </a>
+                    <a href="">
+                        <li>Conatct US</li>
+                    </a>
+                    <a href="">
+                        <li>Give Suggestions</li>
+                    </a>
                 </ul>
             </div>
             <div class="social-links">
                 <h5>Stay In Touch</h5> <br>
                 <ul>
-                   <a href=""> <li>Facebook</li></a>
-                   <a href=""> <li>Instagram</li></a>
-                    <a href=""><li>Youtube</li></a>
-                    <a href=""><li>Twitter</li></a>
+                    <a href="">
+                        <li>Facebook</li>
+                    </a>
+                    <a href="">
+                        <li>Instagram</li>
+                    </a>
+                    <a href="">
+                        <li>Youtube</li>
+                    </a>
+                    <a href="">
+                        <li>Twitter</li>
+                    </a>
                 </ul>
             </div>
         </div>
         <div class="footer-grey">
-            <div class="copyright"><p style="color: grey;">Copyright © 2026 My courses. All rights reserved.</p></div>
-            <div class="privacy"><a href="" style="color: grey;">Privacy</a> &nbsp; <a href="Terms" style="color: grey;">Terms</a></div>
+            <div class="copyright">
+                <p style="color: grey;">Copyright © 2026 My courses. All rights reserved.</p>
+            </div>
+            <div class="privacy"><a href="" style="color: grey;">Privacy</a> &nbsp; <a href="Terms"
+                    style="color: grey;">Terms</a></div>
         </div>
     </footer>
 </body>
