@@ -309,3 +309,29 @@ flex-direction: column;
     list-style:auto;
     padding: 0;
 }
+
+
+form{
+    margin: 100px 300px 100px 300px;
+    background-color: #996A51;
+    padding: 50px;
+}
+
+form input{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+form input ::placeholder{
+    color: rgb(248, 59, 59);
+    
+}
+form textarea{
+    padding: 10px;
+    margin: 10px;
+    width: 100%;
+}
+
+form h3{
+    color: #610b23;
+}
