@@ -7,6 +7,7 @@
 body {
     background-color: #C7A183;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+    font-family:'Courier New', Courier, monospace;
 
 }
 
@@ -122,24 +123,25 @@ ul a :hover{
 
 #sec-1-l {
     font-size: 4rem;
-    line-height: 90px;
     position: absolute;
-    /* Positions the text relative to the container */
     top: 50%;
-    /* Starts the text at the vertical midpoint */
     left: 50%;
-    /* Starts the text at the horizontal midpoint */
     transform: translate(-50%, -50%);
     color: white;
-    /* Styles the text for readability */
-    /* font-size: 20px; */
+    width: 700px;
     font-weight: bold;
+    background-color: rgba(0, 0, 0, 0.1);
+    z-index: 999;
+    /* line-height: 90px; */
+    /* Positions the text relative to the container */
+    /* Styles the text for readability */
+    /* Starts the text at the vertical midpoint */
+    /* Starts the text at the horizontal midpoint */
+    /* font-size: 20px; */
     /* text-align: center; */
     /* Add a background color for better readability on various image types */
-    background-color: rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    /* padding: 10px; */
     /* opacity: 1; */
-    z-index: 999;
 
 }
 
@@ -161,12 +163,27 @@ ul a :hover{
 .card {
     border-radius: 16px;
     background-color: white;
-    height: 358px;
+    /* height: 400px; */
+    height: 100%;
     width: 400px;
     position: relative;
     margin: 20px 0px 20px 0px ;
     padding: 20px 20px 0px 20px;
 
+}
+
+.card button{
+    padding: 10px;
+    margin: 10px 0px 10px 0px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.s ease-in-out;
+
+}
+
+
+.card button:hover{
+transform: scale(1.1);
 }
 
 .card-img {
@@ -313,6 +330,7 @@ flex-direction: column;
 
 form{
     margin: 100px 300px 100px 300px;
+    border-radius: 1rem;
     background-color: #996A51;
     padding: 50px;
 }
@@ -334,4 +352,18 @@ form textarea{
 
 form h3{
     color: #610b23;
+}
+
+
+form button{
+    margin-left: 10px;
+    padding: 10px;
+    size: 1.5rem;
+    cursor: pointer;
+}
+
+form button p{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-size: 1rem;
 }
