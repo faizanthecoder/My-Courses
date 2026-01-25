@@ -24,7 +24,7 @@ nav {
 
 ul {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     align-items: center;
 }
 
@@ -98,7 +98,7 @@ ul a :hover{
   left: 10px;
   background-color: #610b23;
   /* min-width: 160px; */
-  width: 105px;
+  width: 100%;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
 }
@@ -371,4 +371,14 @@ form button p{
     font-family: 'Courier New', Courier, monospace;
     font-weight: 600;
     font-size: 1rem;
+    color:#610b23;
+}
+
+.inner-main{
+    margin :100px 150px 100px 150px ;
+    background-color:#610b23;
+    color: white;
+    padding: 25px;
+    border-radius: 1rem;
+    line-height: 2rem;
 }
