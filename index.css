@@ -175,14 +175,19 @@ ul a :hover{
 .card button{
     padding: 10px;
     margin: 10px 0px 10px 0px;
-    border-radius: 10px;
+    /* border-radius: 18px; */
     cursor: pointer;
-    transition: transform 0.s ease-in-out;
+    transition: transform 0.1s ease-in-out;
+    border: 4px solid transparent; /* Set border thickness here */
+  border-radius: 1rem; /* Now your corners will actually be rounded */
+  background: 
+    linear-gradient(#fff, #fff) padding-box, /* Inner button color (matches background) */
+    linear-gradient(to right, #3F0113, #A21232) border-box; /* Your gradient */
 
 }
 
 
-.card button:hover{
+.card a :hover{
 transform: scale(1.1);
 }
 
