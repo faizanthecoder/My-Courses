@@ -7,7 +7,9 @@
 body {
     background-color: #C7A183;
     /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
-    font-family:'Courier New', Courier, monospace;
+    /* font-family:'Courier New', Courier, monospace; */
+    font-family: 'Poppins', sans-serif;
+
 
 }
 
@@ -169,7 +171,52 @@ ul a :hover{
     position: relative;
     margin: 20px 0px 20px 0px ;
     padding: 20px 20px 0px 20px;
+box-shadow: 0 6px 15px rgba(97, 11, 35, 0.2);
+  transition: transform 0.3s ease;
 
+}
+.card:hover {
+  transform: translateY(-6px);
+}
+
+/* Hidden course animation */
+.hidden-course {
+  opacity: 0;
+  visibility: hidden;
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.6s ease;
+}
+
+.hidden-course.show {
+  opacity: 1;
+  visibility: visible;
+  max-height: 500px; /* enough to fit card height */
+  margin-top: 15px;
+  transition: all 0.6s ease;
+}
+
+.viewmore-container {
+  width: 100%;
+  text-align: center;
+  margin: 0px 400px 0px 400px;
+}
+
+#viewMoreTxt {
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+  color: #3f0113;
+  background: #fff;
+  padding: 10px 20px;
+  border-radius: 30px;
+  border: 1px solid #3f0113;
+  transition: 0.3s;
+}
+
+#viewMoreTxt:hover {
+  background: #3f0113;
+  color: #fff;
 }
 
 .card button{

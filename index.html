@@ -1,311 +1,110 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My courses</title>
-    <link rel="stylesheet" href="index.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My courses</title>
+  <link rel="stylesheet" href="index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com">
 </head>
-
 <body>
-    <header>
-        <nav>
-            <p id="logo">My courses</p>
-            <ul>
-                <a href="index.html">
-                    <li>Home</li>
-                </a>
-                <a href="about.html">
-                    <li>About</li>
-                </a>
-                <a href="contact.html">
-                    <li>Contact</li>
-                </a>
-                <div class="dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
-                    <a href="">
-                        <li>Course ↆ</li>
-                    </a>
-                    <div id="myDropdown" class="dropdown-content">
-                        <a href="/courses/html.html">Html</a>
-                        <a href="/courses/css.html">Css</a>
-                        <a href="/courses/js.html">Java Script</a>
-                        <a href="/courses/python.html">Python</a>
-
-                    </div>
-                </div>
-                <!-- 
-                <a href="courses.html">
-                    <li id="courses">Courses ↆ</li>
-                </a>
-                <div class="dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
-                    <ul id="myDropdown">
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>Java script</li>
-                        <li>Python</li>
-                    </ul>
-                </div> -->
-
-                <a href="terms.html">
-                    <li>Terms&Conditions</li>
-                </a>
-                <!-- <button id="auth">Login</button> -->
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="sec-1">
-            <p id="sec-1-l">"Unlock your future,One clik at a time Unlock your hidden Potential,With us"</p>
-            <img id="sec-1-img"
-                src="https://www.shutterstock.com/image-vector/man-spread-his-arms-different-260nw-2087590141.jpg"
-                alt="">
-        </section>
-        <section id="sec-2">
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://i.ytimg.com/vi/k2DSi1zGEc8/maxresdefault.jpg"
-                        alt="cant show"></div>
-                        
-                <h4>Html Course:</h4>
-                <p>Master the basics of Html.</p>
-                <a href="/courses/html.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://i.ytimg.com/vi/K1naz9wBwKU/maxresdefault.jpg"
-                        alt=""></div>
-                <h4>Css Course:</h4>
-                <p>Master the basics of CSS.</p>
-                <a href="/courses/css.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://i.ytimg.com/vi/427pAhy9dI8/maxresdefault.jpg"
-                        alt=""></div>
-                <h4>Java Script Course:</h4>
-                <p>Master the basics of JS.</p>
-                <a href="/courses/js.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://i.ytimg.com/vi/UrsmFxEIp5k/maxresdefault.jpg"
-                        alt=""></div>
-                <h4>Python Course:</h4>
-                <p>Master the basics of Python.</p>
-                <a href="/courses/python.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img src="https://i.ytimg.com/vi/aZb0iu4uGwA/maxresdefault.jpg"                        alt=""></div>
-                <h4>C Course:</h4>
-                <p>Master the basics of C.</p>
-                <a href="/courses/c.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://i.ytimg.com/vi/FpfHmAkRVK4/maxresdefault.jpg"
-                        alt=""></div>
-                <h4>C++ Course:</h4>
-                <p>Master the basics of C++.</p>
-                <a href="/courses/c++.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://i.ytimg.com/vi/eIrMbAQSU34/maxresdefault.jpg"
-                        alt=""></div>
-                <h4>Java Course:</h4>
-                <p>Master the basics of Java.</p>
-                <a href="/courses/java.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://i.ytimg.com/vi/gVDdOucyZrk/maxresdefault.jpg"
-                        alt=""></div>
-                        
-                <h4>Game development Course:</h4>
-                <p style="padding-bottom: 10px;">Master Game Development.</p>
-                <a href="/courses/gamedev.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img">
-                    <!-- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_J8D2HKLZGSp79fGH4skzoxRXlRvLe_nvZg&s" alt=""> -->
-                    <img src="https://i.ytimg.com/vi/1SnPKhCdlsU/maxresdefault.jpg" alt="">
-
-                </div>
-                <h4>Php Course:</h4>
-                <p>Master the basics of Php.</p>
-                <a href="/courses/php.html"><button>View Course</button></a>
-
-            </div>
-        </section>
-        <!-- <section id="sec-2">
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://media.licdn.com/dms/image/v2/D5612AQGd2ww9CT875A/article-cover_image-shrink_720_1280/article-cover_image-shrink_720_1280/0/1719465177022?e=2147483647&v=beta&t=3Q9Z0ZIO9LGztoQSe0N4D46MSvz8iUAjnJ2LS8FCnCw"
-                        alt="cant show"></div>
-
-                <h4>Html Course:</h4>
-                <p>Master the basics of Html.</p>
-                <a href="/courses/html.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnqgmuvposLni9_Gb_CmLsUkwq8X3vACdHuA&s"
-                        alt=""></div>
-                <h4>Css Course:</h4>
-                <p>Master the basics of CSS.</p>
-                <a href="/courses/css.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkiiCYNqUp85y58_VO7czwj9EvVlM8CFECRg&s"
-                        alt=""></div>
-                <h4>Java Script Course:</h4>
-                <p>Master the basics of JS.</p>
-                <a href="/courses/js.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTx1sscDzi3MtLl3EgrLJUH2ZOJSv8BbzBjBA&s"
-                        alt=""></div>
-                <h4>Python Course:</h4>
-                <p>Master the basics of Python.</p>
-                <a href="/courses/python.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img src="https://static.skillshare.com/uploads/discussion/tmp/cb837f34.png"
-                        alt=""></div>
-                <h4>C Course:</h4>
-                <p>Master the basics of C.</p>
-                <a href="/courses/c.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ6rbRNqV5k5-mT3HqHmNT6rnfT1UEGstEPWg&s"
-                        alt=""></div>
-                <h4>C++ Course:</h4>
-                <p>Master the basics of C++.</p>
-                <a href="/courses/c++.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR6A9t6i1DrQwbuOqIrcWJPtcPx42mxb26zJg&s"
-                        alt=""></div>
-                        "https://i.ytimg.com/vi/eIrMbAQSU34/maxresdefault.jpg"
-                <h4>Java Course:</h4>
-                <p>Master the basics of Java.</p>
-                <a href="/courses/java.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img"><img
-                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqcBaoqU0fGkG_fi8N10Oox5WpZi9xt8S7qg&s"
-                        alt=""></div>
-                        "https://i.ytimg.com/vi/gVDdOucyZrk/maxresdefault.jpg"
-                <h4>Game development Course:</h4>
-                <p style="padding-bottom: 10px;">Master Game Development.</p>
-                <a href="/courses/gamedev.html"><button>View Course</button></a>
-
-            </div>
-            <div class="card">
-                <div class="card-img">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_J8D2HKLZGSp79fGH4skzoxRXlRvLe_nvZg&s" alt="">
-                    <img src="https://i.ytimg.com/vi/1SnPKhCdlsU/maxresdefault.jpg" alt="">
-
-                </div>
-                <h4>Php Course:</h4>
-                <p>Master the basics of Php.</p>
-                <a href="/courses/php.html"><button>View Course</button></a>
-
-            </div>
-        </section> -->
-    </main>
-
-    <footer>
-        <div class="footer-links">
-            <div class="footer-logo">
-                <h4 style="color: white; font-size:2rem;">My courses</h4>
-                <br>
-                <p style="color: white;">Unlock your potenrial with us ,the paltform to improve your <br> soft skills.
-                </p><br>
-                <p style="color: white;">Updates may take some time to show</p><br><br>
-
-            </div>
-            <div class="footer-course">
-                <h5>Courses</h5> <br>
-                <ul>
-                    <a href="/courses/html.html">
-                        <li>Html</li>
-                    </a>
-                    <a href="/courses/css.html">
-                        <li>Css</li>
-                    </a>
-                    <a href="/courses/js.html">
-                        <li>Java Script</li>
-                    </a>
-                    <a href="/courses/python.html">
-                        <li>Python</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="quick-links">
-                <h5>Quick links</h5> <br>
-                <ul>
-                    <a href="index.html">
-                        <li>Courses</li>
-                    </a>
-                    <a href="about.html">
-                        <li>About Us</li>
-                    </a>
-                    <a href="contact.html">
-                        <li>Conatct US</li>
-                    </a>
-                    <a href="contact.html">
-                        <li>Give Suggestions</li>
-                    </a>
-                </ul>
-            </div>
-            <div class="social-links">
-                <h5>Stay In Touch</h5> <br>
-                <ul>
-                    <a href="">
-                        <li>Facebook</li>
-                    </a>
-                    <a href="">
-                        <li>Instagram</li>
-                    </a>
-                    <a href="">
-                        <li>Youtube</li>
-                    </a>
-                    <a href="">
-                        <li>Twitter</li>
-                    </a>
-                </ul>
-            </div>
+  <header>
+    <nav>
+      <p id="logo">My courses</p>
+      <ul>
+        <a href="index.html"><li>Home</li></a>
+        <a href="about.html"><li>About</li></a>
+        <a href="contact.html"><li>Contact</li></a>
+        <div class="dropdown" onmouseover="showDropdown()" onmouseout="hideDropdown()">
+          <a href="#"><li>Course ↆ</li></a>
+          <div id="myDropdown" class="dropdown-content">
+            <a href="/courses/html.html">Html</a>
+            <a href="/courses/css.html">Css</a>
+            <a href="/courses/js.html">JavaScript</a>
+            <a href="/courses/python.html">Python</a>
+          </div>
         </div>
-        <div class="footer-grey">
-            <div class="copyright">
-                <p style="color: grey;">Copyright © 2026 My courses. All rights reserved.</p>
-            </div>
-            <div class="privacy"><a href="privacy.html" style="color: grey;">Privacy</a> &nbsp; <a href="terms.html"
-                    style="color: grey;">Terms</a></div>
-        </div>
-    </footer>
-</body>
+        <a href="terms.html"><li>Terms & Conditions</li></a>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="sec-1">
+      <p id="sec-1-l">"Unlock your future, one click at a time — Unlock your hidden potential with us."</p>
+      <img id="sec-1-img" src="https://www.shutterstock.com/image-vector/man-spread-his-arms-different-260nw-2087590141.jpg" alt="">
+    </section>
+
+    <h1 style="text-align:center;margin:20px 0;color:#610b23">Search Your Desired Course:</h1>
+    <div class="search-container" style="text-align:center;margin:20px 0;">
+      <input type="text" id="courseSearch" onkeyup="searchCourses()" placeholder="🔍 Search for a course..." style="width:80%;padding:12px;border-radius:8px;border:1px solid #ccc;font-size:1.1rem;">
+    </div>
+
+    <section id="sec-2">
+      <!-- visible courses -->
+      <div class="card"><div class="card-img"><img src="https://i.ytimg.com/vi/k2DSi1zGEc8/maxresdefault.jpg"></div><h4>HTML Course</h4><p>Master the basics of HTML.</p><a href="/courses/html.html"><button>View Course</button></a></div>
+      <div class="card"><div class="card-img"><img src="https://i.ytimg.com/vi/K1naz9wBwKU/maxresdefault.jpg"></div><h4>CSS Course</h4><p>Master the basics of CSS.</p><a href="/courses/css.html"><button>View Course</button></a></div>
+      <div class="card"><div class="card-img"><img src="https://i.ytimg.com/vi/427pAhy9dI8/maxresdefault.jpg"></div><h4>JavaScript Course</h4><p>Master the basics of JS.</p><a href="/courses/js.html"><button>View Course</button></a></div>
+      <div class="card"><div class="card-img"><img src="https://i.ytimg.com/vi/UrsmFxEIp5k/maxresdefault.jpg"></div><h4>Python Course</h4><p>Master the basics of Python.</p><a href="/courses/python.html"><button>View Course</button></a></div>
+      <div class="card"><div class="card-img"><img src="https://i.ytimg.com/vi/aZb0iu4uGwA/maxresdefault.jpg"></div><h4>C Course</h4><p>Master the basics of C.</p><a href="/courses/c.html"><button>View Course</button></a></div>
+      <div class="card"><div class="card-img"><img src="https://i.ytimg.com/vi/FpfHmAkRVK4/maxresdefault.jpg"></div><h4>C++ Course</h4><p>Master the basics of C++.</p><a href="/courses/c++.html"><button>View Course</button></a></div>
+      <div class="card"><div class="card-img"><img src="https://i.ytimg.com/vi/eIrMbAQSU34/maxresdefault.jpg"></div><h4>Java Course</h4><p>Master the basics of Java.</p><a href="/courses/java.html"><button>View Course</button></a></div>
+      <div class="card"><div class="card-img"><img src="https://i.ytimg.com/vi/gVDdOucyZrk/maxresdefault.jpg"></div><h4>Game Development</h4><p>Master Game Development.</p><a href="/courses/gamedev.html"><button>View Course</button></a></div>
+      <div class="card"><div class="card-img"><img src="https://i.ytimg.com/vi/1SnPKhCdlsU/maxresdefault.jpg"></div><h4>PHP Course</h4><p>Master the basics of PHP.</p><a href="/courses/php.html"><button>View Course</button></a></div>
+
+      <!-- hidden extra courses -->
+      <!-- <div id="extra-courses" class="extra-courses"> -->
+        <div class="card hidden-course"><div class="card-img"><img src="https://i.ytimg.com/vi/RdMAEdGvtLA/hqdefault.jpg"></div><h4>Cobal Course</h4><p>Master the Cobal Language.</p><a href="/courses/cobal.html"><button>View Course</button></a></div>
+        <div class="card hidden-course"><div class="card-img"><img src="https://i.ytimg.com/vi/BLl32FvcdVM/maxresdefault.jpg"></div><h4>Node.js Course</h4><p>Master backend with Node.js.</p><a href="/courses/node.html"><button>View Course</button></a></div>
+        <div class="card hidden-course"><div class="card-img"><img src="https://i.ytimg.com/vi/RGKi6LSPDLU/maxresdefault.jpg"></div><h4>React Course</h4><p>Learn React from scratch.</p><a href="/courses/react.html"><button>View Course</button></a></div>
+      <!-- </div> -->
+<div class="viewmore-container">
+        <p onclick="toggleHidden()" id="viewMoreTxt">View More Courses ▾</p>
+      </div>
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer-links">
+      <div class="footer-logo">
+        <h4 style="color:white;font-size:2rem;">My courses</h4><br>
+        <p style="color:white;">Unlock your potential with us — the platform to improve your skills.</p><br>
+        <p style="color:white;">Updates may take some time to show</p><br><br>
+      </div>
+      <div class="footer-course">
+        <h5>Courses</h5><br>
+        <ul>
+          <a href="/courses/html.html"><li>Html</li></a>
+          <a href="/courses/css.html"><li>Css</li></a>
+          <a href="/courses/js.html"><li>JavaScript</li></a>
+          <a href="/courses/python.html"><li>Python</li></a>
+        </ul>
+      </div>
+      <div class="quick-links">
+        <h5>Quick links</h5><br>
+        <ul>
+          <a href="index.html"><li>Courses</li></a>
+          <a href="about.html"><li>About Us</li></a>
+          <a href="contact.html"><li>Contact Us</li></a>
+          <a href="contact.html"><li>Give Suggestions</li></a>
+        </ul>
+      </div>
+      <div class="social-links">
+        <h5>Stay In Touch</h5><br>
+        <ul>
+          <a href="#"><li>Facebook</li></a>
+          <a href="#"><li>Instagram</li></a>
+          <a href="#"><li>Youtube</li></a>
+          <a href="#"><li>Twitter</li></a>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-grey">
+      <div class="copyright"><p style="color:grey;">Copyright © 2026 My courses. All rights reserved.</p></div>
+      <div class="privacy"><a href="privacy.html" style="color:grey;">Privacy</a> &nbsp; <a href="terms.html" style="color:grey;">Terms</a></div>
+    </div>
+  </footer>
 <script src="index.js"></script>
-
+</body>
 </html>
